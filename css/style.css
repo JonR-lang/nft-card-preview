@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-size: 15px;
+}
+
+.wrapper {
+    background-color: hsl(216, 50%, 16%);
+    height: 450px;
+    width: 20%;
+    min-width: 280px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: 'Outfit', sans-serif;
+ }
+
+ .image {
+    background-image: url(/images/image-equilibrium.jpg);
+    height: 57%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+ }
+
+ .wrapper h4 {
+    font-size: 16px;
+    margin-top: 18px;
+    color: white;
+    font-weight: 600;
+ }
+
+ .wrapper h4 a {
+   text-decoration: none;
+   color: white;
+ }
+
+ .wrapper h4 a:hover {
+   color: hsl(178, 100%, 50%);
+ }
+
+ .wrapper p {
+    margin-top: 14px;
+    color: hsl(215, 32%, 67%);
+    font-size: 13px;
+    padding-bottom: 18px;
+ }
+
+ .paragraphs {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 0.1px hsl(215, 32%, 37%);;
+ }
+
+ .paragraphs .paragraph-1 {
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+    font-size: 11px;
+    margin-top: -17px;
+    margin-left: 13px;
+    font-family: 'Outfit', sans-serif;
+    
+ }
+
+ .paragraphs .eth-icon {
+    width: 8px;
+    height: 13px;
+ }
+
+ .paragraphs .paragraph-2 {
+    color: hsl(215, 32%, 67%);
+    font-size: 12px;
+    margin-top: -18px;
+ }
+
+ .paragraphs .clock-icon {
+    width: 12px;
+    height: 12px;
+    margin-left: -15px;
+ }
+
+ .avatar {
+    border: 1px solid white;
+    border-radius: 100%;
+    margin-top: 15px;
+ } 
+
+ .avatar-wrapper {
+    display: inline;
+ }
+
+ .avatar-wrapper .creation {
+    color: hsl(215, 32%, 67%);
+    font-size: 12px;
+    margin-left: 35px;
+    margin-top: -24px;
+    
+ }
+
+ .avatar-wrapper .creation a {
+    color: white;
+    text-decoration: none;
+ }
+
+ .avatar-wrapper .creation a:hover {
+   color: hsl(178, 100%, 50%);;
+ }
+
+
+
+ @media  screen and (max-width: 600px) {
+    .wrapper {
+        margin: auto;
+        margin-top: 25%;
+        margin-left: 35px;
+    }
+ }
