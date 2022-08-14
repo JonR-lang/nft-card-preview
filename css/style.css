@@ -22,7 +22,7 @@ body {
  }
 
  .image {
-    background-image: url(/images/image-equilibrium.jpg);
+    background-image: url(../images/image-equilibrium.jpg);
     height: 57%;
     width: 100%;
     background-repeat: no-repeat;
